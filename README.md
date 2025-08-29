@@ -1,13 +1,13 @@
 Customer Churn Prediction: An End-to-End Machine Learning Project
-Project Overview
+🎯 Project Overview
 This project focuses on building a machine learning model to predict customer churn for a telecommunications company. By analyzing various customer attributes and behaviors, the goal is to identify customers at risk of leaving the service. The final output is a deployed, interactive web application that provides real-time churn predictions, offering a valuable tool for business decision-making and enhancing customer retention strategies.
 
 📁 Project Structure
 data/: Contains the raw dataset (tel_churn.csv).
 
-notebooks: Jupyter notebooks for data exploration, cleaning, and modeling.
+notebooks/: Jupyter notebooks for data exploration, cleaning, and modeling.
 
-Streamlit application (app.py).
+src/: Source code for the Streamlit application (app.py).
 
 README.md: This file.
 
@@ -54,22 +54,17 @@ Imblearn: For handling imbalanced datasets with SMOTEENN.
 
 Streamlit: For creating and deploying the interactive web application.
 
-How to Run the Project
-
+🚀 How to Run the Project
 Clone the repository:
 
 git clone <repository_link>
-
 Navigate to the project directory:
 
 cd churn-prediction-project
-
 Install the required libraries:
 
 pip install -r requirements.txt
-
 Run the Streamlit application:
 
 streamlit run app.py
-
 The app will open in your browser, and you can begin making predictions!
